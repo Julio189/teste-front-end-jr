@@ -1,4 +1,6 @@
 import Banner from './components/Banner/Banner'
+import CategoriesCard from './components/CategoriesCard/CategoriesCard'
+
 import Header from './components/Header/Header'
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <CategoriesCard />
     </>
   )
 }
