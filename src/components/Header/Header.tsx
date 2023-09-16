@@ -3,6 +3,7 @@ import './Header.sass'
 import Logo from './Logo/Logo'
 import SearchBar from './SearchBar/SearchBar'
 import IconsNavigation from './IconsNavigation/IconsNavigation'
+import Categories from './Categories/Categories'
 
 const Header = () => {
   return (
@@ -12,6 +13,9 @@ const Header = () => {
         <Logo />
         <SearchBar />
         <IconsNavigation />
+      </div>
+      <div>
+        <Categories />
       </div>
     </header>
   )
